@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,58 +13,252 @@
 
 <body>
     <header>
-        <div class="logo">San <span>Camilo</span></div>
-        <nav class="barra">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Nostros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Redes</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="multimedia/farmaciaLogo.jpeg">
+                    </div>
+                  </a>
+
+                  <form class="search-form" action="#" method="get">
+                    <input type="text" name="search" id="search" placeholder="Buscar...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+            
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Horarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sucursales</a>
+                          </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Perfumeria</a></li>
+                            <li><a class="dropdown-item" href="#">Regaleria</a></li>
+                            <li><a class="dropdown-item" href="#">Vitaminas</a></li>
+                            <li><a class="dropdown-item" href="#">Higuiene</a></li>
+                            <li><a class="dropdown-item" href="#">Obras Sociales</a></li>
+                            <li><a class="dropdown-item" href="#">Flores de Bach</a></li>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>           
+                </div>  
+            </nav>
     </header>
+
     <main>
+        
         <div class="farmacia">
-            <h1>Farmacia San Camilo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus dicta, aut voluptates doloribus facere placeat porro quidem deserunt vel.</p>
+            <h1><strong>Farmacia San Camilo</strong></h1>
+            <h5>Al cuidado del vecino</h5>
         </div>
-        <div class="imagenes" id="imgLogo">
-            <img src="multimedia/farmaciaLogo.jpeg" alt="">
-        </div>
-    </div>
+            
     </main>
     <hr>
 
     <main>
-            <h2 class="tit1">Productos</h2>
-            <section class="tit tit1"></section>
-            <div class="productos">
-                <div class="objeto perfumeria"></div>
-                <div class="objeto regaleria"></div>
-                <div class="objeto higuiene"></div>
-                <div class="objeto vitaminas"></div>
+        
+        
+        <div class="prod">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/perfumeria.avif" width="210" height="140" /></svg>
+                        <h4 class="fw-normal">Perfumeria</h4>
+                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/regaleria.jpg" width="210" height="140" /></svg>
+                        <h4 class="fw-normal">Regaleria</h4>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/higuiene.jpeg" width="170" height="140" /></svg>
+                        
+                        <h4 class="fw-normal">Higuiene</h4>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/vitaminas.avif" width="140" height="150" /></svg>
+                        <h4 class="fw-normal">Vitaminas</h4>
+                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/obrasocial.png" width="145" height="150" /></svg>
+                        <h4 class="fw-normal">Obras Sociales</h4>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                        <image href="multimedia/Flores-bach-1.jpg" width="195" height="140" /></svg>
+                        <h4 class="fw-normal">Flores de Bach</h4>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+                    </div>
+                </div>
             </div>
-        
+        </div>
     </main>
-    <hr>
+    
+    
 
-    <main>
-        <h2 class="tit2">Nosostos</h2>
+    <main class="mainhorarios">
+        <h2 class="tit2">Horarios</h2>
         <section class="tit tit2"></section>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sed sunt saepe error aspernatur quas ratione velit recusandae, pariatur eveniet libero.
-            Est molestiae dolore facere blanditiis consequuntur, itaque nostrum voluptatem?</p>
         
-        <div class="imagenes" id="imgLocal1">
-            <h4>Farmacia San Camilo I</h4>
-            <img src="multimedia/Screenshot_2024_02_09-1.png" alt="">
-        </div>
-        
+        <div class="nos">
+            
+            <div class="container">
+                
+                <div class="horarios">
+                    <div class="tablas"> 
+                        <H3>Farmacia I</H3>
+                            <div class="tabla1">
+                                <table class="table table-stripes">
+                
+                                    <thead>
+                                        <tr>
+                                            <th>Dias</th>
+                                            <th>Turno Mañana</th>
+                                            <th>Turno Tarde</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Lunes - Viernes</th>
+                                            <td>09:00 - 13:00</td>
+                                            <td>16:00 - 21:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sabados</th>
+                                            <td>09:00 - 13:00</td>
+                                            <td>16:00 - 21:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Feriados</th>
+                                            <td>09:00 - 13:00</td>
+                                            <td>16:00 - 21:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>           
+                        </div>    
 
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1703.778374535299!2d-64.24432673649551!3d-31.34361223571375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eab3c552873%3A0x54c1070c4a9083dd!2sFarmacia%20San%20Camilo!5e0!3m2!1ses-419!2sar!4v1707165234943!5m2!1ses-419!2sar" 
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                    <div class="tablas">
+                        <h3>Farmacia II</h3>
+                        <div class="tabla2">
+                            
+                            <table class="table table-stripes">
+                                <thead>
+                                    <tr>
+                                        <th>Dias</th>
+                                        <th>Turno Mañana</th>
+                                        <th>Turno Tarde</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Lunes - Viernes</th>
+                                        <td>09:00 - 13:00</td>
+                                        <td>16:00 - 21:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sabados</th>
+                                        <td>09:00 - 13:00</td>
+                                        <td>16:00 - 21:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Feriados</th>
+                                        <td>09:00 - 13:00</td>
+                                        <td>16:00 - 21:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>  
+                    </div>     
+                </div>
+                
+            </div>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sed sunt saepe error aspernatur quas ratione velit recusandae, pariatur eveniet libero.
+            Est molestiae dolore facere blanditiis consequuntur, itaque nostrum voluptatem?</p>    
         </div>
+  
+    </main>        
+            
+    <main>    
+
+        <h2 class="tit2">Sucursales</h2>
+        <section class="tit tit2"></section>
+
+        <div class="sucursales">
+            <div class="sucursales-farma1">
+                <div class="ubi1">
+                    <div class="ubi1-texto">
+                        <h3 class="ubi1-direccion">Boulevard Los Alemanes 5850</h3>
+                    
+                        <p class="ubi1-descripcion">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="https://maps.app.goo.gl/msdZvAgo2EnsKPET7" class="ubi1-link">Ubicacion Google Maps</a>
+                        
+                    </div>
+                    <div class="ubi1-imagen">
+                        <img src="multimedia/Screenshot_2024_02_09-1.png" alt="Thumbnail">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="sucursales-farma2">
+                <div class="ubi2">
+                    <div class="ubi2-texto">
+                        <h3 class="ubi2-direccion">Av Rafael Nueñez 5887</h3>
+                    
+                        <p class="ubi2-descripcion">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="https://maps.app.goo.gl/yeJiMFnnufgi1n2GA" class="ubi2-link">Ubicacion Google Maps</a>
+                        
+                    </div>
+                    <div class="ubi2-imagen">
+                        <img src="multimedia/far2.png" alt="Thumbnail">
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+        </div>    
+            
+            
 
     </main>
 
