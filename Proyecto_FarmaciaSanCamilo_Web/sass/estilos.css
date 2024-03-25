@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+}
+header .logo img {
+  width: 130px;
+  margin-left: 40px;
+}
+
+h1 {
+  color: rgb(2, 2, 2);
+}
+
+.farmacia {
+  background-color: rgba(28, 240, 8, 0.63);
+}
+.farmacia h5 {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.farmacia h1 {
+  margin-top: 120px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(28, 240, 8, 0.63);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+footer p {
+  margin-bottom: 20px;
+}
+footer .redes a {
+  color: lightgreen;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.tit2 p {
+  text-align: center;
+}
+
+.prod {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.fotofondo {
+  background-color: lightgreen;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.imag {
+  padding: 20px;
+}
+
+.nos {
+  padding: 20px;
+}
+.nos p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.horarios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tablas {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.tablas h3 {
+  text-align: center;
+}
+
+.tabla1 {
+  border: 10px solid #75ec5d;
+  font-size: 20px;
+}
+
+.tabla2 {
+  border: 10px solid #45d3ec;
+  font-size: 20px;
+}
+
+.mainhorarios {
+  background-color: rgb(255, 255, 255);
+}
+.mainhorarios .tabla1,
+.mainhorarios .tabla2 {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sucursales {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.sucursales-farma1,
+.sucursales-farma2 {
+  flex: 1;
+}
+
+.parrafos {
+  padding: 20px;
+  text-align: center;
+}
+
+.ubi1 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ubi1-texto {
+  flex: 1;
+}
+
+.ubi1-direccion {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.ubi1-descripcion {
+  margin-top: 10px;
+}
+
+.ubi1-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+}
+
+.sucursales-farma2 {
+  flex: 1;
+}
+
+.ubi1-imagen img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.ubi2 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ubi2-texto {
+  flex: 1;
+}
+
+.ubi2-direccion {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.ubi2-descripcion {
+  margin-top: 10px;
+}
+
+.ubi2-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+}
+
+.ubi2-imagen img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  .search-form {
+    display: none;
+  }
+  header {
+    padding: 10px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 18px;
+    margin-top: 100px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  footer {
+    font-size: 24px;
+    padding: 10px;
+  }
+  .prod {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .mainhorarios {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+  }
+  .mainhorarios .tabla1,
+  .mainhorarios .tabla2 {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .sucursales-farma1,
+  .sucursales-farma2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .ubi1,
+  .ubi2 {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .ubi1-texto,
+  .ubi2-texto {
+    flex: 1;
+    margin: 10px;
+  }
+  .ubi1-direccion,
+  .ubi2-direccion {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .ubi1-descripcion,
+  .ubi2-descripcion {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .ubi1-link,
+  .ubi2-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .ubi1-imagen img,
+  .ubi2-imagen img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+}
