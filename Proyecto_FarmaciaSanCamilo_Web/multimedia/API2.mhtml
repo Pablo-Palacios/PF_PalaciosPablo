@@ -1,0 +1,1424 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/Admin/prj_IA/IADataDiscovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?sort=result
+Subject: API.html
+Date: Mon, 1 Apr 2024 23:45:35 -0300
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Otr3dfSBdNEDSyaAHI5l8flbbckQH4cbXv8Ew19A8a----"
+
+
+------MultipartBoundary--Otr3dfSBdNEDSyaAHI5l8flbbckQH4cbXv8Ew19A8a----
+Content-Type: text/html
+Content-ID: <frame-D89F551E9FC133C3AF163C822CB69773@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/Admin/prj_IA/IADataDiscovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?sort=result
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+   =20
+    <title id=3D"head-title">API.html</title>
+      <link href=3D"file:///C:/Users/Admin/prj_IA/IADataDiscovery/QA/IAData=
+DiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/assets/style.css" rel=
+=3D"stylesheet" type=3D"text/css">
+  </head>
+  <body>
+    <h1 id=3D"title">Reporte de pruebas Backend/API</h1>
+    <p>Report generated on 01-Apr-2024 at 20:51:54 by <a href=3D"https://py=
+pi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id=3D"environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id=3D"environment">
+      <tr>
+        <td>Python</td>
+        <td><div>3.11.5</div></td>
+      </tr>
+   =20
+      <tr>
+        <td>Platform</td>
+        <td><div>Windows-10-10.0.22621-SP0</div></td>
+      </tr>
+   =20
+      <tr>
+        <td>Packages</td>
+        <td><ul><li>pytest: 8.0.2</li><li>pluggy: 1.4.0</li><ul></ul></ul><=
+/td>
+      </tr>
+   =20
+      <tr>
+        <td>Plugins</td>
+        <td><ul><li>Faker: 24.0.0</li><li>html: 4.1.1</li><li>metadata: 3.1=
+.1</li><ul></ul></ul></td>
+      </tr>
+   =20
+      <tr>
+        <td>JAVA_HOME</td>
+        <td><div>C:\Program Files\Java\jdk-11</div></td>
+      </tr>
+    </table>
+    <!-- TEMPLATES -->
+      <template id=3D"template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id=3D"template_results-table__body--empty">
+      <tbody class=3D"results-table-row">
+        <tr id=3D"not-found-message">
+          <td colspan=3D"4">No results found. Check the filters.
+        </td></tr>
+    </tbody></template>
+    <template id=3D"template_results-table__tbody">
+      <tbody class=3D"results-table-row">
+        <tr class=3D"collapsible">
+        </tr>
+        <tr class=3D"extras-row">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"">
+                    <video controls=3D"">
+                      <source src=3D"" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class=3D"summary">
+      <div class=3D"summary__data">
+        <h2>Summary</h2>
+        <div class=3D"additional-summary prefix">
+        </div>
+        <p class=3D"run-count">24 tests took 00:00:09.</p>
+        <p class=3D"filter">(Un)check the boxes to filter the results.</p>
+        <div class=3D"summary__reload">
+          <div class=3D"summary__reload__button hidden">
+            <div>There are still tests running. <br>Reload this page to get=
+ the latest results!</div>
+          </div>
+        </div>
+        <div class=3D"summary__spacer"></div>
+        <div class=3D"controls">
+          <div class=3D"filters">
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"failed">
+            <span class=3D"failed">2 Failed,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"passed">
+            <span class=3D"passed">22 Passed,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"skipped" disabled=3D"">
+            <span class=3D"skipped">0 Skipped,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"xfailed" disabled=3D"">
+            <span class=3D"xfailed">0 Expected failures,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"xpassed" disabled=3D"">
+            <span class=3D"xpassed">0 Unexpected passes,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"error" disabled=3D"">
+            <span class=3D"error">0 Errors,</span>
+            <input checked=3D"true" class=3D"filter" name=3D"filter_checkbo=
+x" type=3D"checkbox" data-test-result=3D"rerun" disabled=3D"">
+            <span class=3D"rerun">0 Reruns</span>
+          </div>
+          <div class=3D"collapse">
+            <button id=3D"show_all_details">Show all details</button>&nbsp;=
+/&nbsp;<button id=3D"hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class=3D"additional-summary summary">
+      </div>
+      <div class=3D"additional-summary postfix">
+      </div>
+    </div>
+    <table id=3D"results-table"><thead id=3D"results-table-head">
+        <tr>
+          <th class=3D"sortable asc" data-column-type=3D"result">Result</th=
+>
+          <th class=3D"sortable" data-column-type=3D"testId">Test</th>
+          <th class=3D"sortable" data-column-type=3D"duration">Duration</th=
+>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody class=3D"results-table-row failed" id=3D"test_IA_api.py::Login=
+Test::test_error_in_password_login">
+        <tr class=3D"collapsible" data-id=3D"test_4">
+        <td class=3D"col-result collapsed">Failed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_error_in_password_login</td><td class=
+=3D"col-duration">666 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">self =3D &lt;test_IA_api.LoginTest testMet=
+hod=3Dtest_error_in_password_login&gt;
+
+    def test_error_in_password_login(self):
+        user =3D {"email":email1, "password":"testss", "user":{}}
+        response =3D requests.post(http + "/v1/login", json=3Duser)
+&gt;       self.assertEqual(response.status_code, 401, "User se cargo con p=
+assword incorrecto")
+<span class=3D"error">E       AssertionError: 200 !=3D 401 : User se cargo =
+con password incorrecto</span>
+
+test_IA_api.py:76: AssertionError
+</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row failed" id=3D"test_IA_api.py::Login=
+Test::test_miss_password_login">
+        <tr class=3D"collapsible" data-id=3D"test_7">
+        <td class=3D"col-result collapsed">Failed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_miss_password_login</td><td class=3D"co=
+l-duration">660 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">self =3D &lt;test_IA_api.LoginTest testMet=
+hod=3Dtest_miss_password_login&gt;
+
+    def test_miss_password_login(self):
+        user =3D {"email":email1, "password":"", "user":{}}
+        response =3D requests.post(http + "/v1/login", json=3Duser)
+&gt;       self.assertEqual(response.status_code, 401, "User se cargo sin p=
+assword")
+<span class=3D"error">E       AssertionError: 200 !=3D 401 : User se cargo =
+sin password</span>
+
+test_IA_api.py:56: AssertionError
+</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_can_login_user">
+        <tr class=3D"collapsible" data-id=3D"test_0">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_can_login_user</td><td class=3D"col-dur=
+ation">00:00:02</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_conexion">
+        <tr class=3D"collapsible" data-id=3D"test_1">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_conexion</td><td class=3D"col-duration"=
+>328 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_empty_box_login">
+        <tr class=3D"collapsible" data-id=3D"test_2">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_empty_box_login</td><td class=3D"col-du=
+ration">8 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_error_in_email_login">
+        <tr class=3D"collapsible" data-id=3D"test_3">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_error_in_email_login</td><td class=3D"c=
+ol-duration">661 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_fail_arroba_email_login">
+        <tr class=3D"collapsible" data-id=3D"test_5">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_fail_arroba_email_login</td><td class=
+=3D"col-duration">5 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_fail_end_com_email_login">
+        <tr class=3D"collapsible" data-id=3D"test_6">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_fail_end_com_email_login</td><td class=
+=3D"col-duration">4 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Login=
+Test::test_miss_username_login">
+        <tr class=3D"collapsible" data-id=3D"test_8">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::LoginTest::test_miss_username_login</td><td class=3D"co=
+l-duration">5 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Users=
+::test_can_get_list_user">
+        <tr class=3D"collapsible" data-id=3D"test_9">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::Users::test_can_get_list_user</td><td class=3D"col-dura=
+tion">328 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">----------------------------- Captured std=
+out call -----------------------------
+[{'Id': 1, 'Nombre': 'Nahuel', 'Apellido': 'Palacios', 'Mail': 'nahuelpalac=
+ios@gmail.com', 'Habilitado': True, 'Roles': [{'Id': 1, 'NombreRol': 'Admin=
+istrador'}, {'Id': 2, 'NombreRol': 'Buscador'}]}, {'Id': 2, 'Nombre': 'Ivan=
+a', 'Apellido': 'Delgado', 'Mail': 'ivanadelgado1998@gmail.com', 'Habilitad=
+o': True, 'Roles': [{'Id': None, 'NombreRol': None}]}]
+</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Users=
+::test_can_get_user_id">
+        <tr class=3D"collapsible" data-id=3D"test_10">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::Users::test_can_get_user_id</td><td class=3D"col-durati=
+on">656 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Users=
+::test_is_habilitado">
+        <tr class=3D"collapsible" data-id=3D"test_11">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::Users::test_is_habilitado</td><td class=3D"col-duration=
+">656 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_can_get_indexers_with_string">
+        <tr class=3D"collapsible" data-id=3D"test_12">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_can_get_indexers_with_string</td><td cl=
+ass=3D"col-duration">343 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_can_get_invalide_id">
+        <tr class=3D"collapsible" data-id=3D"test_13">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_can_get_invalide_id</td><td class=3D"co=
+l-duration">330 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_error_in_url">
+        <tr class=3D"collapsible" data-id=3D"test_14">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_error_in_url</td><td class=3D"col-durat=
+ion">8 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_error_in_url_with_space_first">
+        <tr class=3D"collapsible" data-id=3D"test_15">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_error_in_url_with_space_first</td><td c=
+lass=3D"col-duration">11 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_get_all_indexers">
+        <tr class=3D"collapsible" data-id=3D"test_16">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_get_all_indexers</td><td class=3D"col-d=
+uration">530 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Index=
+Test::test_get_indexers_id">
+        <tr class=3D"collapsible" data-id=3D"test_17">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::IndexTest::test_get_indexers_id</td><td class=3D"col-du=
+ration">337 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_can_get_origins_false_id">
+        <tr class=3D"collapsible" data-id=3D"test_18">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_can_get_origins_false_id</td><td clas=
+s=3D"col-duration">334 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_can_get_origins_with_string">
+        <tr class=3D"collapsible" data-id=3D"test_19">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_can_get_origins_with_string</td><td c=
+lass=3D"col-duration">342 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_error_in_url_with_space_first">
+        <tr class=3D"collapsible" data-id=3D"test_20">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_error_in_url_with_space_first</td><td=
+ class=3D"col-duration">6 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_error_url">
+        <tr class=3D"collapsible" data-id=3D"test_21">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_error_url</td><td class=3D"col-durati=
+on">4 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_get_all_origins">
+        <tr class=3D"collapsible" data-id=3D"test_22">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_get_all_origins</td><td class=3D"col-=
+duration">329 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+   =20
+      <tbody class=3D"results-table-row passed" id=3D"test_IA_api.py::Origi=
+nsTest::test_get_origins_id">
+        <tr class=3D"collapsible" data-id=3D"test_23">
+        <td class=3D"col-result collapsed">Passed</td><td class=3D"col-test=
+Id">test_IA_api.py::OriginsTest::test_get_origins_id</td><td class=3D"col-d=
+uration">332 ms</td><td class=3D"col-links"></td></tr>
+        <tr class=3D"extras-row hidden">
+          <td class=3D"extra" colspan=3D"4">
+            <div class=3D"extraHTML"></div>
+            <div class=3D"media hidden">
+              <div class=3D"media-container">
+                  <div class=3D"media-container__nav--left">&lt;</div>
+                  <div class=3D"media-container__viewport">
+                    <img src=3D"file:///C:/Users/Admin/prj_IA/IADataDiscove=
+ry/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.html?so=
+rt=3Dresult">
+                    <video controls=3D"">
+                      <source src=3D"file:///C:/Users/Admin/prj_IA/IADataDi=
+scovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/API.ht=
+ml?sort=3Dresult" type=3D"video/mp4">
+                    </video>
+                  </div>
+                  <div class=3D"media-container__nav--right">&gt;</div>
+                </div>
+                <div class=3D"media__name"></div>
+                <div class=3D"media__counter"></div>
+            </div>
+            <div class=3D"logwrapper">
+              <div class=3D"logexpander"></div>
+              <div class=3D"log">No log output captured.</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+  <footer>
+    <div id=3D"data-container" data-jsonblob=3D"{&quot;environment&quot;: {=
+&quot;Python&quot;: &quot;3.11.5&quot;, &quot;Platform&quot;: &quot;Windows=
+-10-10.0.22621-SP0&quot;, &quot;Packages&quot;: {&quot;pytest&quot;: &quot;=
+8.0.2&quot;, &quot;pluggy&quot;: &quot;1.4.0&quot;}, &quot;Plugins&quot;: {=
+&quot;Faker&quot;: &quot;24.0.0&quot;, &quot;html&quot;: &quot;4.1.1&quot;,=
+ &quot;metadata&quot;: &quot;3.1.1&quot;}, &quot;JAVA_HOME&quot;: &quot;C:\=
+\Program Files\\Java\\jdk-11&quot;}, &quot;tests&quot;: {&quot;test_IA_api.=
+py::LoginTest::test_can_login_user&quot;: [{&quot;extras&quot;: [], &quot;r=
+esult&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::=
+LoginTest::test_can_login_user&quot;, &quot;duration&quot;: &quot;00:00:02&=
+quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-result\&q=
+uot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>test_IA_=
+api.py::LoginTest::test_can_login_user</td>&quot;, &quot;<td class=3D\&quot=
+;col-duration\&quot;>00:00:02</td>&quot;, &quot;<td class=3D\&quot;col-link=
+s\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captured.&quot;=
+}], &quot;test_IA_api.py::LoginTest::test_conexion&quot;: [{&quot;extras&qu=
+ot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;=
+test_IA_api.py::LoginTest::test_conexion&quot;, &quot;duration&quot;: &quot=
+;328 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-r=
+esult\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>=
+test_IA_api.py::LoginTest::test_conexion</td>&quot;, &quot;<td class=3D\&qu=
+ot;col-duration\&quot;>328 ms</td>&quot;, &quot;<td class=3D\&quot;col-link=
+s\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captured.&quot;=
+}], &quot;test_IA_api.py::LoginTest::test_empty_box_login&quot;: [{&quot;ex=
+tras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;:=
+ &quot;test_IA_api.py::LoginTest::test_empty_box_login&quot;, &quot;duratio=
+n&quot;: &quot;8 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D=
+\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-te=
+stId\&quot;>test_IA_api.py::LoginTest::test_empty_box_login</td>&quot;, &qu=
+ot;<td class=3D\&quot;col-duration\&quot;>8 ms</td>&quot;, &quot;<td class=
+=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log outp=
+ut captured.&quot;}], &quot;test_IA_api.py::LoginTest::test_error_in_email_=
+login&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quo=
+t;, &quot;testId&quot;: &quot;test_IA_api.py::LoginTest::test_error_in_emai=
+l_login&quot;, &quot;duration&quot;: &quot;661 ms&quot;, &quot;resultsTable=
+Row&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &=
+quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py::LoginTest::test_e=
+rror_in_email_login</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot=
+;>661 ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;]=
+, &quot;log&quot;: &quot;No log output captured.&quot;}], &quot;test_IA_api=
+.py::LoginTest::test_error_in_password_login&quot;: [{&quot;extras&quot;: [=
+], &quot;result&quot;: &quot;Failed&quot;, &quot;testId&quot;: &quot;test_I=
+A_api.py::LoginTest::test_error_in_password_login&quot;, &quot;duration&quo=
+t;: &quot;666 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&q=
+uot;col-result\&quot;>Failed</td>&quot;, &quot;<td class=3D\&quot;col-testI=
+d\&quot;>test_IA_api.py::LoginTest::test_error_in_password_login</td>&quot;=
+, &quot;<td class=3D\&quot;col-duration\&quot;>666 ms</td>&quot;, &quot;<td=
+ class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;self =
+=3D &amp;lt;test_IA_api.LoginTest testMethod=3Dtest_error_in_password_login=
+&amp;gt;\n\n    def test_error_in_password_login(self):\n        user =3D {=
+&amp;quot;email&amp;quot;:email1, &amp;quot;password&amp;quot;:&amp;quot;te=
+stss&amp;quot;, &amp;quot;user&amp;quot;:{}}\n        response =3D requests=
+.post(http + &amp;quot;/v1/login&amp;quot;, json=3Duser)\n&amp;gt;       se=
+lf.assertEqual(response.status_code, 401, &amp;quot;User se cargo con passw=
+ord incorrecto&amp;quot;)\nE       AssertionError: 200 !=3D 401 : User se c=
+argo con password incorrecto\n\ntest_IA_api.py:76: AssertionError\n&quot;}]=
+, &quot;test_IA_api.py::LoginTest::test_fail_arroba_email_login&quot;: [{&q=
+uot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&=
+quot;: &quot;test_IA_api.py::LoginTest::test_fail_arroba_email_login&quot;,=
+ &quot;duration&quot;: &quot;5 ms&quot;, &quot;resultsTableRow&quot;: [&quo=
+t;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=
+=3D\&quot;col-testId\&quot;>test_IA_api.py::LoginTest::test_fail_arroba_ema=
+il_login</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>5 ms</td>=
+&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&q=
+uot;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::LoginTes=
+t::test_fail_end_com_email_login&quot;: [{&quot;extras&quot;: [], &quot;res=
+ult&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::Lo=
+ginTest::test_fail_end_com_email_login&quot;, &quot;duration&quot;: &quot;4=
+ ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-resul=
+t\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>test=
+_IA_api.py::LoginTest::test_fail_end_com_email_login</td>&quot;, &quot;<td =
+class=3D\&quot;col-duration\&quot;>4 ms</td>&quot;, &quot;<td class=3D\&quo=
+t;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captu=
+red.&quot;}], &quot;test_IA_api.py::LoginTest::test_miss_password_login&quo=
+t;: [{&quot;extras&quot;: [], &quot;result&quot;: &quot;Failed&quot;, &quot=
+;testId&quot;: &quot;test_IA_api.py::LoginTest::test_miss_password_login&qu=
+ot;, &quot;duration&quot;: &quot;660 ms&quot;, &quot;resultsTableRow&quot;:=
+ [&quot;<td class=3D\&quot;col-result\&quot;>Failed</td>&quot;, &quot;<td c=
+lass=3D\&quot;col-testId\&quot;>test_IA_api.py::LoginTest::test_miss_passwo=
+rd_login</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>660 ms</t=
+d>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log=
+&quot;: &quot;self =3D &amp;lt;test_IA_api.LoginTest testMethod=3Dtest_miss=
+_password_login&amp;gt;\n\n    def test_miss_password_login(self):\n       =
+ user =3D {&amp;quot;email&amp;quot;:email1, &amp;quot;password&amp;quot;:&=
+amp;quot;&amp;quot;, &amp;quot;user&amp;quot;:{}}\n        response =3D req=
+uests.post(http + &amp;quot;/v1/login&amp;quot;, json=3Duser)\n&amp;gt;    =
+   self.assertEqual(response.status_code, 401, &amp;quot;User se cargo sin =
+password&amp;quot;)\nE       AssertionError: 200 !=3D 401 : User se cargo s=
+in password\n\ntest_IA_api.py:56: AssertionError\n&quot;}], &quot;test_IA_a=
+pi.py::LoginTest::test_miss_username_login&quot;: [{&quot;extras&quot;: [],=
+ &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_=
+api.py::LoginTest::test_miss_username_login&quot;, &quot;duration&quot;: &q=
+uot;5 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-=
+result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;=
+>test_IA_api.py::LoginTest::test_miss_username_login</td>&quot;, &quot;<td =
+class=3D\&quot;col-duration\&quot;>5 ms</td>&quot;, &quot;<td class=3D\&quo=
+t;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captu=
+red.&quot;}], &quot;test_IA_api.py::Users::test_can_get_list_user&quot;: [{=
+&quot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testI=
+d&quot;: &quot;test_IA_api.py::Users::test_can_get_list_user&quot;, &quot;d=
+uration&quot;: &quot;328 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td =
+class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quo=
+t;col-testId\&quot;>test_IA_api.py::Users::test_can_get_list_user</td>&quot=
+;, &quot;<td class=3D\&quot;col-duration\&quot;>328 ms</td>&quot;, &quot;<t=
+d class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;----=
+------------------------- Captured stdout call ----------------------------=
+-\n[{&amp;#x27;Id&amp;#x27;: 1, &amp;#x27;Nombre&amp;#x27;: &amp;#x27;Nahue=
+l&amp;#x27;, &amp;#x27;Apellido&amp;#x27;: &amp;#x27;Palacios&amp;#x27;, &a=
+mp;#x27;Mail&amp;#x27;: &amp;#x27;nahuelpalacios@gmail.com&amp;#x27;, &amp;=
+#x27;Habilitado&amp;#x27;: True, &amp;#x27;Roles&amp;#x27;: [{&amp;#x27;Id&=
+amp;#x27;: 1, &amp;#x27;NombreRol&amp;#x27;: &amp;#x27;Administrador&amp;#x=
+27;}, {&amp;#x27;Id&amp;#x27;: 2, &amp;#x27;NombreRol&amp;#x27;: &amp;#x27;=
+Buscador&amp;#x27;}]}, {&amp;#x27;Id&amp;#x27;: 2, &amp;#x27;Nombre&amp;#x2=
+7;: &amp;#x27;Ivana&amp;#x27;, &amp;#x27;Apellido&amp;#x27;: &amp;#x27;Delg=
+ado&amp;#x27;, &amp;#x27;Mail&amp;#x27;: &amp;#x27;ivanadelgado1998@gmail.c=
+om&amp;#x27;, &amp;#x27;Habilitado&amp;#x27;: True, &amp;#x27;Roles&amp;#x2=
+7;: [{&amp;#x27;Id&amp;#x27;: None, &amp;#x27;NombreRol&amp;#x27;: None}]}]=
+\n&quot;}], &quot;test_IA_api.py::Users::test_can_get_user_id&quot;: [{&quo=
+t;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&qu=
+ot;: &quot;test_IA_api.py::Users::test_can_get_user_id&quot;, &quot;duratio=
+n&quot;: &quot;656 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=
+=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col=
+-testId\&quot;>test_IA_api.py::Users::test_can_get_user_id</td>&quot;, &quo=
+t;<td class=3D\&quot;col-duration\&quot;>656 ms</td>&quot;, &quot;<td class=
+=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log outp=
+ut captured.&quot;}], &quot;test_IA_api.py::Users::test_is_habilitado&quot;=
+: [{&quot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;t=
+estId&quot;: &quot;test_IA_api.py::Users::test_is_habilitado&quot;, &quot;d=
+uration&quot;: &quot;656 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td =
+class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quo=
+t;col-testId\&quot;>test_IA_api.py::Users::test_is_habilitado</td>&quot;, &=
+quot;<td class=3D\&quot;col-duration\&quot;>656 ms</td>&quot;, &quot;<td cl=
+ass=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log o=
+utput captured.&quot;}], &quot;test_IA_api.py::IndexTest::test_can_get_inde=
+xers_with_string&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &quot=
+;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::IndexTest::test_ca=
+n_get_indexers_with_string&quot;, &quot;duration&quot;: &quot;343 ms&quot;,=
+ &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>P=
+assed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py=
+::IndexTest::test_can_get_indexers_with_string</td>&quot;, &quot;<td class=
+=3D\&quot;col-duration\&quot;>343 ms</td>&quot;, &quot;<td class=3D\&quot;c=
+ol-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captured=
+.&quot;}], &quot;test_IA_api.py::IndexTest::test_can_get_invalide_id&quot;:=
+ [{&quot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;te=
+stId&quot;: &quot;test_IA_api.py::IndexTest::test_can_get_invalide_id&quot;=
+, &quot;duration&quot;: &quot;330 ms&quot;, &quot;resultsTableRow&quot;: [&=
+quot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td clas=
+s=3D\&quot;col-testId\&quot;>test_IA_api.py::IndexTest::test_can_get_invali=
+de_id</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>330 ms</td>&=
+quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&qu=
+ot;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::IndexTest=
+::test_error_in_url&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &q=
+uot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::IndexTest::test=
+_error_in_url&quot;, &quot;duration&quot;: &quot;8 ms&quot;, &quot;resultsT=
+ableRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot=
+;, &quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py::IndexTest::te=
+st_error_in_url</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>8 =
+ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quo=
+t;log&quot;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::I=
+ndexTest::test_error_in_url_with_space_first&quot;: [{&quot;extras&quot;: [=
+], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_I=
+A_api.py::IndexTest::test_error_in_url_with_space_first&quot;, &quot;durati=
+on&quot;: &quot;11 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=
+=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col=
+-testId\&quot;>test_IA_api.py::IndexTest::test_error_in_url_with_space_firs=
+t</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>11 ms</td>&quot;=
+, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: =
+&quot;No log output captured.&quot;}], &quot;test_IA_api.py::IndexTest::tes=
+t_get_all_indexers&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &qu=
+ot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::IndexTest::test_=
+get_all_indexers&quot;, &quot;duration&quot;: &quot;530 ms&quot;, &quot;res=
+ultsTableRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>Passed</td>=
+&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py::IndexTes=
+t::test_get_all_indexers</td>&quot;, &quot;<td class=3D\&quot;col-duration\=
+&quot;>530 ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&q=
+uot;], &quot;log&quot;: &quot;No log output captured.&quot;}], &quot;test_I=
+A_api.py::IndexTest::test_get_indexers_id&quot;: [{&quot;extras&quot;: [], =
+&quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_a=
+pi.py::IndexTest::test_get_indexers_id&quot;, &quot;duration&quot;: &quot;3=
+37 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-res=
+ult\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>te=
+st_IA_api.py::IndexTest::test_get_indexers_id</td>&quot;, &quot;<td class=
+=3D\&quot;col-duration\&quot;>337 ms</td>&quot;, &quot;<td class=3D\&quot;c=
+ol-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log output captured=
+.&quot;}], &quot;test_IA_api.py::OriginsTest::test_can_get_origins_false_id=
+&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &=
+quot;testId&quot;: &quot;test_IA_api.py::OriginsTest::test_can_get_origins_=
+false_id&quot;, &quot;duration&quot;: &quot;334 ms&quot;, &quot;resultsTabl=
+eRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, =
+&quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py::OriginsTest::tes=
+t_can_get_origins_false_id</td>&quot;, &quot;<td class=3D\&quot;col-duratio=
+n\&quot;>334 ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>=
+&quot;], &quot;log&quot;: &quot;No log output captured.&quot;}], &quot;test=
+_IA_api.py::OriginsTest::test_can_get_origins_with_string&quot;: [{&quot;ex=
+tras&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;:=
+ &quot;test_IA_api.py::OriginsTest::test_can_get_origins_with_string&quot;,=
+ &quot;duration&quot;: &quot;342 ms&quot;, &quot;resultsTableRow&quot;: [&q=
+uot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=
+=3D\&quot;col-testId\&quot;>test_IA_api.py::OriginsTest::test_can_get_origi=
+ns_with_string</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>342=
+ ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &qu=
+ot;log&quot;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::=
+OriginsTest::test_error_in_url_with_space_first&quot;: [{&quot;extras&quot;=
+: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;tes=
+t_IA_api.py::OriginsTest::test_error_in_url_with_space_first&quot;, &quot;d=
+uration&quot;: &quot;6 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td cl=
+ass=3D\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;=
+col-testId\&quot;>test_IA_api.py::OriginsTest::test_error_in_url_with_space=
+_first</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>6 ms</td>&q=
+uot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quo=
+t;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::OriginsTes=
+t::test_error_url&quot;: [{&quot;extras&quot;: [], &quot;result&quot;: &quo=
+t;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::OriginsTest::test=
+_error_url&quot;, &quot;duration&quot;: &quot;4 ms&quot;, &quot;resultsTabl=
+eRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>Passed</td>&quot;, =
+&quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.py::OriginsTest::tes=
+t_error_url</td>&quot;, &quot;<td class=3D\&quot;col-duration\&quot;>4 ms</=
+td>&quot;, &quot;<td class=3D\&quot;col-links\&quot;></td>&quot;], &quot;lo=
+g&quot;: &quot;No log output captured.&quot;}], &quot;test_IA_api.py::Origi=
+nsTest::test_get_all_origins&quot;: [{&quot;extras&quot;: [], &quot;result&=
+quot;: &quot;Passed&quot;, &quot;testId&quot;: &quot;test_IA_api.py::Origin=
+sTest::test_get_all_origins&quot;, &quot;duration&quot;: &quot;329 ms&quot;=
+, &quot;resultsTableRow&quot;: [&quot;<td class=3D\&quot;col-result\&quot;>=
+Passed</td>&quot;, &quot;<td class=3D\&quot;col-testId\&quot;>test_IA_api.p=
+y::OriginsTest::test_get_all_origins</td>&quot;, &quot;<td class=3D\&quot;c=
+ol-duration\&quot;>329 ms</td>&quot;, &quot;<td class=3D\&quot;col-links\&q=
+uot;></td>&quot;], &quot;log&quot;: &quot;No log output captured.&quot;}], =
+&quot;test_IA_api.py::OriginsTest::test_get_origins_id&quot;: [{&quot;extra=
+s&quot;: [], &quot;result&quot;: &quot;Passed&quot;, &quot;testId&quot;: &q=
+uot;test_IA_api.py::OriginsTest::test_get_origins_id&quot;, &quot;duration&=
+quot;: &quot;332 ms&quot;, &quot;resultsTableRow&quot;: [&quot;<td class=3D=
+\&quot;col-result\&quot;>Passed</td>&quot;, &quot;<td class=3D\&quot;col-te=
+stId\&quot;>test_IA_api.py::OriginsTest::test_get_origins_id</td>&quot;, &q=
+uot;<td class=3D\&quot;col-duration\&quot;>332 ms</td>&quot;, &quot;<td cla=
+ss=3D\&quot;col-links\&quot;></td>&quot;], &quot;log&quot;: &quot;No log ou=
+tput captured.&quot;}]}, &quot;renderCollapsed&quot;: [&quot;passed&quot;],=
+ &quot;initialSort&quot;: &quot;result&quot;, &quot;title&quot;: &quot;API.=
+html&quot;}"></div>
+   =20
+  </footer>
+</body></html>
+------MultipartBoundary--Otr3dfSBdNEDSyaAHI5l8flbbckQH4cbXv8Ew19A8a----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/Admin/prj_IA/IADataDiscovery/QA/IADataDiscoveryQA/Test_Backend/reporte_de_pruebas_Backend/assets/style.css
+
+@charset "utf-8";
+
+body { font-family: Helvetica, Arial, sans-serif; font-size: 12px; min-widt=
+h: 800px; color: rgb(153, 153, 153); }
+
+h1 { font-size: 24px; color: black; }
+
+h2 { font-size: 16px; color: black; }
+
+p { color: black; }
+
+a { color: rgb(153, 153, 153); }
+
+table { border-collapse: collapse; }
+
+#environment td { padding: 5px; border: 1px solid rgb(230, 230, 230); verti=
+cal-align: top; }
+
+#environment tr:nth-child(2n+1) { background-color: rgb(246, 246, 246); }
+
+#environment ul { margin: 0px; padding: 0px 20px; }
+
+span.passed, .passed .col-result { color: green; }
+
+span.skipped, span.xfailed, span.rerun, .skipped .col-result, .xfailed .col=
+-result, .rerun .col-result { color: orange; }
+
+span.error, span.failed, span.xpassed, .error .col-result, .failed .col-res=
+ult, .xpassed .col-result { color: red; }
+
+.col-links__extra { margin-right: 3px; }
+
+#results-table { border: 1px solid rgb(230, 230, 230); color: rgb(153, 153,=
+ 153); font-size: 12px; width: 100%; }
+
+#results-table th, #results-table td { padding: 5px; border: 1px solid rgb(=
+230, 230, 230); text-align: left; }
+
+#results-table th { font-weight: bold; }
+
+.logwrapper { max-height: 230px; overflow-y: scroll; background-color: rgb(=
+230, 230, 230); }
+
+.logwrapper.expanded { max-height: none; }
+
+.logwrapper.expanded .logexpander::after { content: "collapse [-]"; }
+
+.logwrapper .logexpander { z-index: 1; position: sticky; top: 10px; width: =
+max-content; border: 1px solid; border-radius: 3px; padding: 5px 7px; margi=
+n: 10px 0px 10px calc(100% - 80px); cursor: pointer; background-color: rgb(=
+230, 230, 230); }
+
+.logwrapper .logexpander::after { content: "expand [+]"; }
+
+.logwrapper .logexpander:hover { color: rgb(0, 0, 0); border-color: rgb(0, =
+0, 0); }
+
+.logwrapper .log { min-height: 40px; position: relative; top: -50px; height=
+: calc(100% + 50px); border: 1px solid rgb(230, 230, 230); color: black; di=
+splay: block; font-family: "Courier New", Courier, monospace; padding: 5px =
+80px 5px 5px; white-space: pre-wrap; }
+
+div.media { border: 1px solid rgb(230, 230, 230); float: right; height: 240=
+px; margin: 0px 5px; overflow: hidden; width: 320px; }
+
+.media-container { display: grid; grid-template-columns: 25px auto 25px; al=
+ign-items: center; flex: 1 1 0%; overflow: hidden; height: 200px; }
+
+.media-container--fullscreen { grid-template-columns: 0px auto 0px; }
+
+.media-container__nav--right, .media-container__nav--left { text-align: cen=
+ter; cursor: pointer; }
+
+.media-container__viewport { cursor: pointer; text-align: center; height: i=
+nherit; }
+
+.media-container__viewport img, .media-container__viewport video { object-f=
+it: cover; width: 100%; max-height: 100%; }
+
+.media__name, .media__counter { display: flex; flex-direction: row; justify=
+-content: space-around; flex: 0 0 25px; align-items: center; }
+
+.collapsible td:not(.col-links) { cursor: pointer; }
+
+.collapsible td:not(.col-links):hover::after { color: rgb(187, 187, 187); f=
+ont-style: italic; cursor: pointer; }
+
+.col-result { width: 130px; }
+
+.col-result:hover::after { content: " (hide details)"; }
+
+.col-result.collapsed:hover::after { content: " (show details)"; }
+
+#environment-header h2:hover::after { content: " (hide details)"; color: rg=
+b(187, 187, 187); font-style: italic; cursor: pointer; font-size: 12px; }
+
+#environment-header.collapsed h2:hover::after { content: " (show details)";=
+ color: rgb(187, 187, 187); font-style: italic; cursor: pointer; font-size:=
+ 12px; }
+
+.sortable { cursor: pointer; }
+
+.sortable.desc::after { content: " "; position: relative; left: 5px; bottom=
+: -12.5px; border-width: 10px 10px 0px; border-top-style: solid; border-rig=
+ht-style: solid; border-left-style: solid; border-top-color: rgb(76, 175, 8=
+0); border-image: initial; border-bottom-style: initial; border-bottom-colo=
+r: initial; border-left-color: transparent; border-right-color: transparent=
+; }
+
+.sortable.asc::after { content: " "; position: relative; left: 5px; bottom:=
+ 12.5px; border-width: 0px 10px 10px; border-right-style: solid; border-bot=
+tom-style: solid; border-left-style: solid; border-bottom-color: rgb(76, 17=
+5, 80); border-image: initial; border-top-style: initial; border-top-color:=
+ initial; border-left-color: transparent; border-right-color: transparent; =
+}
+
+.hidden, .summary__reload__button.hidden { display: none; }
+
+.summary__data { flex: 0 0 550px; }
+
+.summary__reload { flex: 1 1 0%; display: flex; justify-content: center; }
+
+.summary__reload__button { flex: 0 0 300px; display: flex; color: white; fo=
+nt-weight: bold; background-color: rgb(76, 175, 80); text-align: center; ju=
+stify-content: center; align-items: center; border-radius: 3px; cursor: poi=
+nter; }
+
+.summary__reload__button:hover { background-color: rgb(70, 160, 73); }
+
+.summary__spacer { flex: 0 0 550px; }
+
+.controls { display: flex; justify-content: space-between; }
+
+.filters, .collapse { display: flex; align-items: center; }
+
+.filters button, .collapse button { color: rgb(153, 153, 153); border: none=
+; background: none; cursor: pointer; text-decoration: underline; }
+
+.filters button:hover, .collapse button:hover { color: rgb(204, 204, 204); =
+}
+
+.filter__label { margin-right: 10px; }
+------MultipartBoundary--Otr3dfSBdNEDSyaAHI5l8flbbckQH4cbXv8Ew19A8a------

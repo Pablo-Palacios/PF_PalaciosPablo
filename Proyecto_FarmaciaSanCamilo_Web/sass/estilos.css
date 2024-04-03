@@ -9,32 +9,131 @@ header {
   height: auto;
   width: 100%;
   padding: 20px;
-  font-size: 22px;
+  margin-bottom: 0;
 }
-header .logo img {
-  width: 130px;
-  margin-left: 40px;
+
+
+.navbar{
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  padding-bottom: 40px;
 }
+
+.navbar-brand{
+  padding-bottom: 10px;
+}
+
+.navbar-brand small{
+  color: #fff; 
+  padding-bottom: 20px;
+  padding-left: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  
+}
+
+.navbar-brand h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: #75ec5d;
+  padding-left: 30px;
+  
+  
+}
+
+.carrusel-promos{
+  margin-bottom: 120px;
+  
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.navbar-brand small{
+  color: #fff; 
+  padding-bottom: 10px;
+  
+}
+
+.colobutton{
+  background-color: #75ec5d;
+}
+
 
 h1 {
   color: rgb(2, 2, 2);
 }
 
-.farmacia {
-  background-color: rgba(28, 240, 8, 0.63);
+.prin{
+  margin-top: 0;
 }
+
+.carru{
+  background-color:#affaa0;
+}
+.carousel-item {
+  
+  height: 200px; 
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.carousel-item img{
+  height: 300px;
+  width: 100%;
+}
+
+.fondoimagen{
+  text-align: center;
+  margin-left: 530px;
+  height: 250px;
+  
+ 
+}
+
+
+
+
+.farmacia{
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.farmacia-contenido{
+ 
+  position: relative;
+  z-index: 1;
+  text-align: center
+}
+
 .farmacia h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
   color: black;
   text-align: center;
   margin-bottom: 10px;
 }
+
+
+
 .farmacia h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   margin-top: 120px;
   padding: 20px;
-  color: black;
   text-align: center;
 }
+
 
 h2 {
   background-color: rgba(28, 240, 8, 0.63);
@@ -203,6 +302,8 @@ footer .redes a {
   margin-top: 10px;
 }
 
+
+
 .ubi2-link {
   display: block;
   margin-top: 10px;
@@ -216,6 +317,142 @@ footer .redes a {
   margin-top: 10px;
   border-radius: 5px;
 }
+
+.btn-wrp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000; 
+  line-height: 55px;
+  transition: all 0.3s ease; 
+  background-color: #75ec5d;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+  color: #fff;
+
+}
+
+.btn-wrp.active {
+  bottom: 50px;
+  right: 50px;
+}
+
+
+.fondoPerfu img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.fondoflores img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.fondohiguiene img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.fondoobrasSocial img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.fondoregaleria img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.fondovitaminas img{
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+
+.texto-perfu h1{
+  position: absolute;
+  top: 20%; 
+  right: 20%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-flores h1{
+  position: absolute;
+  top: 20%; 
+  left: 20%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-higuiene h1{
+  position: absolute;
+  top: 20%; 
+  right: 10%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-obrasSocial h1{
+  position: absolute;
+  top: 20%; 
+  right: 10%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-regaleria h1{
+  position: absolute;
+  top: 20%; 
+  right: 10%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-vitaminas h1{
+  position: absolute;
+  top: 25%; 
+  right: 10%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.productos-perfumeria{
+  padding-bottom: 200px;
+}
+
+
+
+
+
 
 @media (min-width: 320px) and (max-width: 700px) {
   .search-form {
