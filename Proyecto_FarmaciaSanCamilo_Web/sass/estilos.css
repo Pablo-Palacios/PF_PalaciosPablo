@@ -449,9 +449,25 @@ footer .redes a {
   padding-bottom: 200px;
 }
 
+#imgapross {
+  /* Estilos específicos para el elemento con el ID imgapross */
+  width: 350px; /* Cambiar el tamaño del ancho, por ejemplo */
+  height: auto; /* Mantener la proporción original de la imagen */
+}
 
+#imgpami {
+  height: 350px; 
+}
 
+#imgioma{
+  
+  height: 350px;
+}
 
+#imgopdea{
+  
+  height: 350px;
+}
 
 
 @media (min-width: 320px) and (max-width: 700px) {
