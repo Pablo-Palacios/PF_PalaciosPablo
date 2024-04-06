@@ -5,7 +5,7 @@
 }
 
 header {
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   height: auto;
   width: 100%;
   padding: 20px;
@@ -32,18 +32,16 @@ header {
   color: #fff; 
   padding-bottom: 20px;
   padding-left: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
-  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand h3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #75ec5d;
   padding-left: 30px;
-  
-  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .carrusel-promos{
@@ -55,7 +53,7 @@ header {
 .navbar-nav .nav-link.active {
     color: #fff;
     font-size: 20px;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-brand small{
@@ -80,16 +78,17 @@ h1 {
 .carru{
   background-color:#affaa0;
 }
-.carousel-item {
+
+
+.carru-inicio .carousel-item {
   
-  height: 200px; 
-  margin-bottom: 50px;
+  height: 600px; 
   margin-top: 30px;
 }
 
-.carousel-item img{
-  height: 300px;
-  width: 100%;
+.carru-inicio .carousel-item img{
+  height: 500px;
+  width: auto;
 }
 
 .fondoimagen{
@@ -140,6 +139,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
@@ -450,9 +450,9 @@ footer .redes a {
 }
 
 #imgapross {
-  /* Estilos específicos para el elemento con el ID imgapross */
-  width: 350px; /* Cambiar el tamaño del ancho, por ejemplo */
-  height: auto; /* Mantener la proporción original de la imagen */
+  
+  
+  height: 320px; 
 }
 
 #imgpami {
@@ -470,14 +470,46 @@ footer .redes a {
 }
 
 
-@media (min-width: 320px) and (max-width: 700px) {
+
+
+@media (min-width: 320px) and (max-width: 721px) {
   .search-form {
     display: none;
   }
+  .navbar {
+    flex-direction: row-reverse;
+  }
   header {
     padding: 10px;
-    font-size: 18px;
+    font-size: 10px;
+    
   }
+  .navbar{
+    height: 100px;
+    
+  }
+  .navbar-brand h3{
+    font-size: 20px;
+   
+  }
+  .navbar-brand small{
+    font-size: 20px;
+    
+  }
+
+  .navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+    color: #080808;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+  .fondoimagen{
+    
+    margin-left: 20px;
+  }
+  
   h1 {
     font-size: 18px;
     margin-top: 100px;
@@ -550,4 +582,49 @@ footer .redes a {
     margin: 10px auto;
     border-radius: 5px;
   }
+
+  .texto-perfu h1{
+    font-size: 3rem;
+    top: 10%;
+
+  }
+
+  .texto-flores h1{
+    font-size: 2rem;
+    left: 3%;
+    top: 5%;
+  }
+
+  .texto-regaleria h1{
+    font-size: 3rem;
+    top: 25%;
+  }
+
+  .texto-higuiene h1{
+    font-size: 3rem;
+    top: 25%;
+    left: 20%;
+  }
+
+  .texto-vitaminas h1{
+    font-size: 3rem;
+    top: 40%;
+    right: 5%;
+  }
+
+  .texto-obrasSocial h1{
+    font-size: 3rem;
+    top: 30%;
+    right: 8%;
+  }
+
+  .fondoflores img{
+    height: 600px;
+  }
+
+  .productos-perfumeria .card {
+    margin: 50px;
+  }
+  
+
 }
